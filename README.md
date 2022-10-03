@@ -152,4 +152,4 @@ This extension uses [Markdown Extra 1.9.0](https://github.com/michelf/php-markdo
 
 ## Developer
 
-Datenstrom. [Get help](https://datenstrom.se/yellow/help/).
+Anna Svensson. [Get help](https://datenstrom.se/yellow/help/).

@@ -152,4 +152,4 @@ Diese Erweiterung benutzt [Markdown Extra 1.9.0](https://github.com/michelf/php-
 
 ## Entwickler
 
-Datenstrom. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Anna Svensson. [Hilfe finden](https://datenstrom.se/de/yellow/help/).

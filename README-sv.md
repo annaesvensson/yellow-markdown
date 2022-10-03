@@ -152,4 +152,4 @@ Detta tilläg använder [Markdown Extra 1.9.0](https://github.com/michelf/php-ma
 
 ## Utvecklare
 
-Datenstrom. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
