@@ -148,7 +148,7 @@ Standardparsern definieras i filen `system/extensions/yellow-system.ini`. En ann
 
 [Ladda ner tillägg](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
 
-Detta tilläg använder [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin.
+Detta tilläg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin.
 
 ## Utvecklare
 
