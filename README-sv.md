@@ -8,13 +8,13 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 ## Hur man anpassar text
 
-Det finns förkortningar för att lägga till ytterligare funktioner. Du kan lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md), [ikoner](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-sv.md) och ytterligare funktioner på din webbplats. De tillgängliga förkortningar beror på installerade tillägg. 
+Det finns förkortningar för att lägga till ytterligare funktioner. Du kan lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md), [ikoner](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-sv.md) och ytterligare funktioner till innehållet. De tillgängliga förkortningar beror på installerade tillägg.
 
-Standard innehållsparsern definieras i filen `system/extensions/yellow-system.ini`. En annan innehållsparser kan definieras i [sidinställningarna](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på varje sida, till exempel `Parser: markdown`. 
+Standard innehållsparsern definieras i filen `system/extensions/yellow-system.ini`. En annan innehållsparser kan definieras i [sidinställningarna](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på varje sida, till exempel `Parser: markdown`.
 
 ## Exempel
 
@@ -138,9 +138,9 @@ Använd HTML:
 
 Använd förkortningar:
 
-    [image photo.jpg]     = lägga till en bild
-    [gallery photo.*jpg]  = lägga till ett bildgalleri med popup
-    [slider photo.*jpg]   = lägga till ett bildgalleri med reglaget
+    [image photo.jpg]    = lägga till en bild
+    [gallery photo.*jpg] = lägga till ett bildgalleri med popup
+    [slider photo.*jpg]  = lägga till ett bildgalleri med reglaget
 
 ## Installation
 
