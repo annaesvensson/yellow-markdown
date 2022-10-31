@@ -8,7 +8,13 @@ Text formatting for humans.
 
 ## How to format text
 
-Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). In addition to Markdown there are shortcuts. You can add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery), [videos](https://github.com/annaesvensson/yellow-youtube), [table of contents](https://github.com/annaesvensson/yellow-toc), [icons](https://github.com/annaesvensson/yellow-fontawesome) and additional features to your website.
+Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+
+## How to customise text
+
+There are shortcuts to add additional features. You can add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery), [icons](https://github.com/annaesvensson/yellow-fontawesome) and additional features to your website. The available shortcuts depend on extensions installed.
+
+The default content parser is defined in file `system/extensions/yellow-system.ini`. A different content parser can be defined in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of each page, for example `Parser: markdown`.
 
 ## Examples
 
@@ -135,18 +141,10 @@ Using shortcuts:
     [image photo.jpg]     = adding an image
     [gallery photo.*jpg]  = adding an image gallery with popup
     [slider photo.*jpg]   = adding an image gallery with slider
-    [youtube fhs55HEl-Gc] = embedding a video
-    [toc]                 = making a table of contents
-
-    Shortcuts require additional extensions to work. 
-
-## Settings
-
-The default parser is defined in file `system/extensions/yellow-system.ini`. A different parser can be defined in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of each page, for example `Parser: markdown`.
 
 ## Installation
 
-[Download extension](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
 
 This extension includes [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin.
 

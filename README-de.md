@@ -8,7 +8,13 @@ Textformatierung für Menschen.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Zusätzlich zu Markdown gibt es Abkürzungen. Du kannst damit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md), [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md), [Videos](https://github.com/annaesvensson/yellow-youtube/tree/main/README-de.md), [Inhaltsverzeichnisse](https://github.com/annaesvensson/yellow-toc/tree/main/README-de.md), [Icons](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-de.md) und zusätzliche Funktionen in deine Webseite einbinden.
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+
+## Wie man Text anpasst
+
+Es gibt Abkürzungen um zusätzliche Funktion einzubinden. Du kannst damit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md), [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md), [Icons](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-de.md) und weitere Funktionen in deine Webseiten einbinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
+
+Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Inhaltsparser lässt sich in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
 
 ## Beispiele
 
@@ -135,18 +141,10 @@ Abkürzungen benutzen:
     [image photo.jpg]     = Bild hinzufügen
     [gallery photo.*jpg]  = Bildergalerie mit Popup hinzufügen
     [slider photo.*jpg]   = Bildergalerie mit Schieber hinzufügen
-    [youtube fhs55HEl-Gc] = Video einbinden
-    [toc]                 = Inhaltsverzeichnis anzeigen
-
-    Abkürzungen erfordern zusätzliche Erweiterungen um zu funktionieren.
-
-## Einstellungen
-
-Der Standardparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Parser lässt sich in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`. 
 
 ## Installation
 
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) und die Zip-Datei in dein `system/extensions`-Verzeichnis kopieren. Rechtsklick bei Safari.
+[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 Diese Erweiterung enthält [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin.
 

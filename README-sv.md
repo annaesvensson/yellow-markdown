@@ -8,7 +8,13 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). Förutom Markdown finns det förkortningar. Du kan lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md), [videor](https://github.com/annaesvensson/yellow-youtube/tree/main/README-sv.md), [innehållsförteckningar](https://github.com/annaesvensson/yellow-toc/tree/main/README-sv.md), [ikoner](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-sv.md) och ytterligare funktioner på din webbplats.
+Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax). 
+
+## Hur man anpassar text
+
+Det finns förkortningar för att lägga till ytterligare funktioner. Du kan lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md), [ikoner](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-sv.md) och ytterligare funktioner på din webbplats. De tillgängliga förkortningar beror på installerade tillägg. 
+
+Standard innehållsparsern definieras i filen `system/extensions/yellow-system.ini`. En annan innehållsparser kan definieras i [sidinställningarna](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på varje sida, till exempel `Parser: markdown`. 
 
 ## Exempel
 
@@ -135,18 +141,10 @@ Använd förkortningar:
     [image photo.jpg]     = lägga till en bild
     [gallery photo.*jpg]  = lägga till ett bildgalleri med popup
     [slider photo.*jpg]   = lägga till ett bildgalleri med reglaget
-    [youtube fhs55HEl-Gc] = bädda in en video
-    [toc]                 = göra ett innehållsförteckning
-
-    Förkortningar kräver ytterligare tillägg för att fungera.
-
-## Inställningar
-
-Standardparsern definieras i filen `system/extensions/yellow-system.ini`. En annan parser kan definieras i [sidinställningarna](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på varje sida, till exempel `Parser: markdown`. 
 
 ## Installation
 
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) och kopiera zip-fil till din `system/extensions` mapp. Högerklicka om du använder Safari.
+[Ladda ner tillägg](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 Detta tilläg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin.
 
