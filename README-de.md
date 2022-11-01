@@ -142,6 +142,32 @@ Abkürzungen benutzen:
     [gallery photo.*jpg] = Bildergalerie mit Popup hinzufügen
     [slider photo.*jpg]  = Bildergalerie mit Schieber hinzufügen
 
+Erweiterung für eigene Abkürzung:
+
+```
+<?php
+class YellowExample {
+    const VERSION = "0.1.2";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle page content of shortcut
+    public function onParseContentShortcut($page, $name, $text, $type) {
+        $output = null;
+        if ($name=="example" && ($type=="block" || $type=="inline")) {
+            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output .= "Add more HTML code here";
+            $output .= "</div>";
+        }
+        return $output;
+    }
+}
+```
+
 ## Installation
 
 [Erweiterung herunterladen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).

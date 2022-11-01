@@ -142,6 +142,32 @@ Using shortcuts:
     [gallery photo.*jpg] = adding an image gallery with popup
     [slider photo.*jpg]  = adding an image gallery with slider
 
+Extension for custom shortcut:
+
+```
+<?php
+class YellowExample {
+    const VERSION = "0.1.2";
+    public $yellow;         // access to API
+    
+    // Handle initialisation
+    public function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    
+    // Handle page content of shortcut
+    public function onParseContentShortcut($page, $name, $text, $type) {
+        $output = null;
+        if ($name=="example" && ($type=="block" || $type=="inline")) {
+            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output .= "Add more HTML code here";
+            $output .= "</div>";
+        }
+        return $output;
+    }
+}
+```
+
 ## Installation
 
 [Download extension](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
