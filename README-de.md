@@ -12,7 +12,7 @@ Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie i
 
 ## Wie man Text anpasst
 
-Es gibt Abkürzungen um zusätzliche Funktion einzubinden. Du kannst damit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md), [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md), [Icons](https://github.com/annaesvensson/yellow-fontawesome/tree/main/README-de.md) und weitere Funktionen in den Inhalt einbinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
+Es gibt Abkürzungen um zusätzliche Funktion einzubinden. Du kannst damit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md), [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md), [Icons](https://github.com/annaesvensson/yellow-icon/tree/main/README-de.md) und weitere Funktionen in den Inhalt einbinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
 
 Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Inhaltsparser lässt sich in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/README-de.md#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`.
 

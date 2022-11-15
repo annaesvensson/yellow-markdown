@@ -12,7 +12,7 @@ Markdown is a practical way to edit web pages. Write text like you would in an e
 
 ## How to customise text
 
-There are shortcuts to add additional features. You can add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery), [icons](https://github.com/annaesvensson/yellow-fontawesome) and additional features to your content. The available shortcuts depend on extensions installed.
+There are shortcuts to add additional features. You can add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery), [icons](https://github.com/annaesvensson/yellow-icon) and additional features to your content. The available shortcuts depend on extensions installed.
 
 The default content parser is defined in file `system/extensions/yellow-system.ini`. A different content parser can be defined in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of each page, for example `Parser: markdown`.
 
