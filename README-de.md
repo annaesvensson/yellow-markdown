@@ -170,7 +170,7 @@ class YellowExample {
 
 ## Danksagung
 
-Diese Erweiterung enthält [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin. Danke für die tolle Arbeit.
+Diese Erweiterung enthält [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin. Danke für die gute Arbeit.
 
 ## Installation
 
