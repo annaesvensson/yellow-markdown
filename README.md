@@ -168,11 +168,13 @@ class YellowExample {
 }
 ```
 
+## Acknowledgments
+
+This extension includes [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin. Thanks for the great work.
+
 ## Installation
 
 [Download extension](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) and copy ZIP file into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
-
-This extension includes [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) by Michel Fortin.
 
 ## Developer
 
