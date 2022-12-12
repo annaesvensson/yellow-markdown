@@ -6,6 +6,10 @@ Textformatering för människor.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" alt="Skärmdump"></p>
 
+## Hur man installerar ett tillägg
+
+[Ladda ner ZIP-filen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) och kopiera den till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
+
 ## Hur man formaterar text
 
 Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
@@ -171,10 +175,6 @@ class YellowExample {
 ## Tack
 
 Detta tilläg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
-
-## Installation
-
-[Ladda ner tillägg](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) och kopiera ZIP-fil till din `system/extensions` mapp. [Läs mer om tillägg](https://github.com/annaesvensson/yellow-update/tree/main/README-sv.md).
 
 ## Utvecklare
 

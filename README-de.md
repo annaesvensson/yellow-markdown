@@ -6,6 +6,10 @@ Textformatierung für Menschen.
 
 <p align="center"><img src="markdown-screenshot.png?raw=true" alt="Bildschirmfoto"></p>
 
+## Wie man eine Erweiterung installiert
+
+[ZIP-Datei herunterladen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) und in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
+
 ## Wie man Text formatiert
 
 Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Hier ist die [Markdown-Syntax](http://commonmark.org/help/), eine Liste der [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
@@ -171,10 +175,6 @@ class YellowExample {
 ## Danksagung
 
 Diese Erweiterung enthält [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) von Michel Fortin. Danke für die gute Arbeit.
-
-## Installation
-
-[Erweiterung herunterladen](https://github.com/annaesvensson/yellow-markdown/archive/main.zip) und die ZIP-Datei in dein `system/extensions`-Verzeichnis kopieren. [Weitere Informationen zu Erweiterungen](https://github.com/annaesvensson/yellow-update/tree/main/README-de.md).
 
 ## Entwickler
 
