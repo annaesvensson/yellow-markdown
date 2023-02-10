@@ -174,7 +174,7 @@ class YellowExample {
 
 ## Tack
 
-Detta tilläg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
+Detta tillägg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
 
 ## Utvecklare
 
