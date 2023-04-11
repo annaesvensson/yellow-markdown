@@ -27,7 +27,7 @@ Innehållsfil med namn på sidas och text:
     ---
     Title: Exempelsida
     ---
-    Detta är ett exempelsida.
+    Detta är en exempelsida.
 
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
     tempor incididunt ut labore et dolore magna pizza. Ut enim ad minim veniam, 
