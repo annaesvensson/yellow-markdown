@@ -12,13 +12,13 @@ Text formatting for humans.
 
 ## How to format text
 
-Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. Here's the [Markdown syntax](http://commonmark.org/help/), a list of [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
-
-## How to customise text
-
-There are shortcuts to add additional features. You can add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery), [icons](https://github.com/annaesvensson/yellow-icon) and additional features to your content. The available shortcuts depend on extensions installed.
+Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. The overriding design goal for the Markdown syntax is to make it as readable as possible. Here are the [Markdown syntax](http://commonmark.org/help/), [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 The default content parser is defined in file `system/extensions/yellow-system.ini`. A different content parser can be defined in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of each page, for example `Parser: markdown`.
+
+## How to format text with shortcuts
+
+Markdown is a portable way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery) and [videos](https://github.com/annaesvensson/yellow-youtube). The available shortcuts depend on extensions installed.
 
 ## Examples
 
@@ -140,9 +140,9 @@ Using HTML:
     <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
 
-Using shortcuts:
+Using shortcuts with additional features:
 
-    [image photo.jpg]    = adding an image
+    [image photo.jpg]    = adding an image or image thumbnail
     [gallery photo.*jpg] = adding an image gallery with popup
     [slider photo.*jpg]  = adding an image gallery with slider
 
