@@ -12,13 +12,13 @@ Textformatering för människor.
 
 ## Hur man formaterar text
 
-Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Här är [Markdown-syntaxen](http://commonmark.org/help/), en lista över [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
-
-## Hur man anpassar text
-
-Det finns förkortningar för att lägga till ytterligare funktioner. Du kan lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md), [ikoner](https://github.com/annaesvensson/yellow-icon/tree/main/README-sv.md) och ytterligare funktioner till innehållet. De tillgängliga förkortningar beror på installerade tillägg.
+Markdown är ett praktiskt sätt att redigera webbsidor. Skriv text som i ett e-postmeddelande och det blir en webbsida. Efter en kort stund händer det naturligt utan att du ens tänker på det. Det övergripande designmålet för Markdown-syntaxen är att göra den så läsbar som möjligt. Här är [Markdown-syntaxen](http://commonmark.org/help/), [Markdown Extra funktioner](https://michelf.ca/projects/php-markdown/extra/) och [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 Standard innehållsparsern definieras i filen `system/extensions/yellow-system.ini`. En annan innehållsparser kan definieras i [sidinställningarna](https://github.com/annaesvensson/yellow-core/tree/main/README-sv.md#inställningar-page) högst upp på varje sida, till exempel `Parser: markdown`.
+
+## Hur man formaterar text med förkortningar
+
+Markdown är ett bärbart sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md) och [videor](https://github.com/annaesvensson/yellow-youtube/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
 
 ## Exempel
 
@@ -140,9 +140,9 @@ Använd HTML:
     <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
 
-Använd förkortningar:
+Använd förkortningar med ytterligare funktioner:
 
-    [image photo.jpg]    = lägga till en bild
+    [image photo.jpg]    = lägga till en bild eller miniatyrbild
     [gallery photo.*jpg] = lägga till ett bildgalleri med popup
     [slider photo.*jpg]  = lägga till ett bildgalleri med reglaget
 
