@@ -18,7 +18,7 @@ Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.in
 
 ## Wie man Text mit Abkürzungen formatiert
 
-Markdown ist eine portable Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md), [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) und [Videos](https://github.com/annaesvensson/yellow-youtube/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
 
 ## Beispiele
 

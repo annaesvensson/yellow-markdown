@@ -18,7 +18,7 @@ Standard innehållsparsern definieras i filen `system/extensions/yellow-system.i
 
 ## Hur man formaterar text med förkortningar
 
-Markdown är ett bärbart sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md), [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md) och [videor](https://github.com/annaesvensson/yellow-youtube/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
+Markdown är ett flexibelt sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md) och [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
 
 ## Exempel
 

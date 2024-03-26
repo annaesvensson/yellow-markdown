@@ -18,7 +18,7 @@ The default content parser is defined in file `system/extensions/yellow-system.i
 
 ## How to format text with shortcuts
 
-Markdown is a portable way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image), [image galleries](https://github.com/annaesvensson/yellow-gallery) and [videos](https://github.com/annaesvensson/yellow-youtube). The available shortcuts depend on extensions installed.
+Markdown is a flexible way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image) and [image galleries](https://github.com/annaesvensson/yellow-gallery). The available shortcuts depend on extensions installed.
 
 ## Examples
 
