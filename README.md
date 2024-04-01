@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Markdown 0.8.26
+# Markdown 0.8.27
 
 Text formatting for humans.
 
@@ -159,8 +159,8 @@ class YellowExample {
         $this->yellow = $yellow;
     }
     
-    // Handle page content of shortcut
-    public function onParseContentShortcut($page, $name, $text, $type) {
+    // Handle page content element
+    public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="example" && ($type=="block" || $type=="inline")) {
             $output = "<div class=\"".htmlspecialchars($name)."\">";
