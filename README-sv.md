@@ -20,6 +20,10 @@ Standard innehållsparsern definieras i filen `system/extensions/yellow-system.i
 
 Markdown är ett flexibelt sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md) och [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
 
+## Hur man formaterar text med blockelement
+
+Markdown har stöd för blockelement som kan sträcka sig över flera rader. Sätt tecknet `>` i början av raden så kan du skapa ett citat. Eller sätt tecknet `!` i början av raden så kan du skapa ett allmänt blockelement. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad.
+
 ## Exempel
 
 Innehållsfil med namn på sidas och text:
@@ -60,12 +64,6 @@ Skapa en rubrik:
     # Rubrik 1
     ## Rubrik 2
     ### Rubrik 3
-
-Skapa citat:
-
-    > Citat
-    >> Citat i citat
-    >>> Citat i citat i citat
 
 Skapa länkar:
 
@@ -119,6 +117,14 @@ Skapa radbrytningar:
     
     Mellanslag i slutet av raden representeras av prickar (⋅)
 
+Skapa citat:
+
+    > Citat
+    
+    >> Citat i citat
+    
+    >>> Citat i citat i citat
+
 Skapa indikationer:
 
     ! Här är en indikation med varning 
@@ -130,7 +136,7 @@ Skapa indikationer:
 Använd CSS:
 
     ! {.class}
-    ! Här är en indikation med anpassad klass.
+    ! Här är ett allmänt blockelement.
     ! Text kan sträcka sig över flera rader
     ! och innehåller Markdown-textformatering.
 

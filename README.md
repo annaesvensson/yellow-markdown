@@ -20,6 +20,10 @@ The default content parser is defined in file `system/extensions/yellow-system.i
 
 Markdown is a flexible way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image) and [image galleries](https://github.com/annaesvensson/yellow-gallery). The available shortcuts depend on extensions installed.
 
+## How to format text with block elements
+
+Markdown has support for block elements that can span over several lines. Put the `>` character at the beginning of the line and you can make a quote. Or put the `!` character at the beginning of the line and you can make a general block element. If you are a web developer you are probably asking, does this mean can I add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
+
 ## Examples
 
 Content file with page title and text:
@@ -60,12 +64,6 @@ Making a heading:
     # Heading 1
     ## Heading 2
     ### Heading 3
-
-Making quotes:
-
-    > Quote
-    >> Quote of a quote
-    >>> Quote of a quote of a quote
 
 Making links:
 
@@ -119,6 +117,14 @@ Making line breaks:
     
     Spaces at the end of the line are shown with dots (⋅)
 
+Making quotes:
+
+    > Quote
+    
+    >> Quote of a quote
+    
+    >>> Quote of a quote of a quote
+
 Making notices:
 
     ! Here's a notice with warning
@@ -130,7 +136,7 @@ Making notices:
 Using CSS:
 
     ! {.class}
-    ! Here's a notice with custom class.
+    ! Here's a general block element.
     ! Text can span over several lines
     ! and contain Markdown text formatting.
 

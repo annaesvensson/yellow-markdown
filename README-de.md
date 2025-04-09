@@ -20,6 +20,10 @@ Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.in
 
 Markdown ist eine flexible Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
 
+## Wie man Text mit Blockelementen formatiert
+
+Markdown unterstützt Blockelemente die über mehrere Zeilen gehen. Setze das Zeichen `>` an den Zeilenanfang, um ein Zitat zu erstellen. Oder setze das Zeichen `!` an den Zeilenanfang, um ein allgemeines Blockelement zu erstellen. Als Webentwickler fragst du sich wahrscheinlich, kann ich `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
+
 ## Beispiele
 
 Inhaltsdatei mit Seitentitel und Text:
@@ -60,12 +64,6 @@ Eine Überschrift erstellen:
     # Überschrift 1
     ## Überschrift 2
     ### Überschrift 3
-
-Zitate erstellen:
-
-    > Zitat
-    >> Zitat im Zitat
-    >>> Zitat im Zitat im Zitat
 
 Links erstellen:
 
@@ -119,6 +117,14 @@ Zeilenumbrüche erstellen:
     
     Leerzeichen am Zeilenende sind dargestellt durch Punkte (⋅)
 
+Zitate erstellen:
+
+    > Zitat
+    
+    >> Zitat im Zitat
+    
+    >>> Zitat im Zitat im Zitat
+
 Hinweise erstellen:
 
     ! Hier ist ein Hinweis mit Warnung
@@ -130,7 +136,7 @@ Hinweise erstellen:
 CSS benutzen:
 
     ! {.class}
-    ! Hier ist ein Hinweis mit benutzerdefinierter Klasse.
+    ! Hier ist ein allgemeines Blockelement.
     ! Der Text kann über mehrere Zeilen gehen
     ! und Markdown-Textformatierung beinhalten.
 
