@@ -148,16 +148,16 @@ Använd HTML:
 
 Använd förkortningar med ytterligare funktioner:
 
-    [image photo.jpg]    = lägga till en bild eller miniatyrbild
-    [gallery photo.*jpg] = lägga till ett bildgalleri med popup
-    [slider photo.*jpg]  = lägga till ett bildgalleri med reglaget
+    [image photo.jpg] = lägga till en bild eller miniatyrbild
+    [gallery photo]   = lägga till ett bildgalleri med popup
+    [slider photo]    = lägga till ett bildgalleri med reglaget
 
 Tillägg för egen förkortning:
 
 ```
 <?php
 class YellowExample {
-    const VERSION = "0.1.2";
+    const VERSION = "0.1.3";
     public $yellow;         // access to API
     
     // Handle initialisation

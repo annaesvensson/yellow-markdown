@@ -22,7 +22,7 @@ Markdown is a flexible way to edit web pages. Markdown-formatted text can be ope
 
 ## How to format text with block elements
 
-Markdown has support for block elements that can span over several lines. Put the `>` character at the beginning of the line and you can make a quote. Or put the `!` character at the beginning of the line and you can make a general block element. If you are a web developer you are probably asking, does this mean can I add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
+Markdown has support for block elements that can span over several lines. Put the `>` character at the beginning of the line and you can make a quote. Or put the `!` character at the beginning of the line and you can make a general block element. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
 
 ## Examples
 
@@ -148,16 +148,16 @@ Using HTML:
 
 Using shortcuts with additional features:
 
-    [image photo.jpg]    = adding an image or image thumbnail
-    [gallery photo.*jpg] = adding an image gallery with popup
-    [slider photo.*jpg]  = adding an image gallery with slider
+    [image photo.jpg] = adding an image or image thumbnail
+    [gallery photo]   = adding an image gallery with popup
+    [slider photo]    = adding an image gallery with slider
 
 Extension for custom shortcut:
 
 ```
 <?php
 class YellowExample {
-    const VERSION = "0.1.2";
+    const VERSION = "0.1.3";
     public $yellow;         // access to API
     
     // Handle initialisation

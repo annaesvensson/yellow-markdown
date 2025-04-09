@@ -22,7 +22,7 @@ Markdown ist eine flexible Art um Webseiten zu bearbeiten. Markdown-formatierter
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown unterstützt Blockelemente die über mehrere Zeilen gehen. Setze das Zeichen `>` an den Zeilenanfang, um ein Zitat zu erstellen. Oder setze das Zeichen `!` an den Zeilenanfang, um ein allgemeines Blockelement zu erstellen. Als Webentwickler fragst du sich wahrscheinlich, kann ich `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
+Markdown unterstützt Blockelemente die über mehrere Zeilen gehen. Setze das Zeichen `>` an den Zeilenanfang, um ein Zitat zu erstellen. Oder setze das Zeichen `!` an den Zeilenanfang, um ein allgemeines Blockelement zu erstellen. Als Webentwickler fragst du dich wahrscheinlich, kann ich `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
 
 ## Beispiele
 
@@ -148,16 +148,16 @@ HTML benutzen:
 
 Abkürzungen mit zusätzlichen Funktionen benutzen:
 
-    [image photo.jpg]    = Bild oder Miniaturbild hinzufügen
-    [gallery photo.*jpg] = Bildergalerie mit Popup hinzufügen
-    [slider photo.*jpg]  = Bildergalerie mit Schieber hinzufügen
+    [image photo.jpg] = Bild oder Miniaturbild hinzufügen
+    [gallery photo]   = Bildergalerie mit Popup hinzufügen
+    [slider photo]    = Bildergalerie mit Schieber hinzufügen
 
 Erweiterung für eigene Abkürzung:
 
 ```
 <?php
 class YellowExample {
-    const VERSION = "0.1.2";
+    const VERSION = "0.1.3";
     public $yellow;         // access to API
     
     // Handle initialisation
