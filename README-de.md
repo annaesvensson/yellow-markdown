@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Markdown 0.9.3
+# Markdown 0.9.4
 
 Textformatierung für Menschen.
 
@@ -18,11 +18,11 @@ Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.in
 
 ## Wie man Text mit Abkürzungen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
+Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown unterstützt Blockelemente die über mehrere Zeilen gehen. Setze das Zeichen `>` an den Zeilenanfang, um ein Zitat zu erstellen. Oder setze das Zeichen `!` an den Zeilenanfang, um ein allgemeines Blockelement zu erstellen. Als Webentwickler fragst du dich wahrscheinlich, kann ich `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
+Markdown ist eine flexible Art und Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang, um ein allgemeines Blockelement zu erstellen welches über mehrere Zeilen geht. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Die verfügbaren Blockelemente hängen vom deinem aktuellen Thema ab.
 
 ## Beispiele
 
@@ -125,32 +125,29 @@ Zitate erstellen:
     
     >>> Zitat im Zitat im Zitat
 
-Hinweise erstellen:
-
-    ! Hier ist ein Hinweis mit Warnung
-    
-    !! Hier ist ein Hinweis mit Fehler
-    
-    !!! Hier ist ein Hinweis mit Tipp
-
-CSS benutzen:
-
-    ! {.class}
-    ! Hier ist ein allgemeines Blockelement.
-    ! Der Text kann über mehrere Zeilen gehen
-    ! und Markdown-Textformatierung beinhalten.
-
 HTML benutzen:
 
     <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
     <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
     <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
 
-Abkürzungen mit zusätzlichen Funktionen benutzen:
+Abkürzungen benutzen:
 
     [image photo.jpg] = Bild oder Miniaturbild hinzufügen
     [gallery photo]   = Bildergalerie mit Popup hinzufügen
     [slider photo]    = Bildergalerie mit Schieber hinzufügen
+
+Blockelemente benutzen:
+
+    ! Hier ist ein allgemeines Blockelement.
+    ! Der Text kann über mehrere Zeilen gehen
+    ! und Markdown-Textformatierung beinhalten.
+
+    ! {.important}
+    ! Hier sind Informationen die beachtet werden müssen.
+
+    ! {.note}
+    ! Hier sind Informationen die du wissen solltest.
 
 Erweiterung für eigene Abkürzung:
 

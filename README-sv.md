@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Markdown 0.9.3
+# Markdown 0.9.4
 
 Textformatering för människor.
 
@@ -18,11 +18,11 @@ Standard innehållsparsern definieras i filen `system/extensions/yellow-system.i
 
 ## Hur man formaterar text med förkortningar
 
-Markdown är ett flexibelt sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md) och [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
+Markdown är ett snabbt sätt att redigera webbsidor. Markdown-formaterad text kan öppnas med vilken textredigerare som helst. Eller så kan den redigeras i en [webbläsare](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md). De flesta applikationer stöder den grundläggande Markdown-syntaxen, vissa applikationer tillhandahåller förkortningar med ytterligare funktioner för webbsidor. Detta ger dig möjlighet att till exempel lägga till [bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-sv.md) och [bildgallerier](https://github.com/annaesvensson/yellow-gallery/tree/main/README-sv.md). De tillgängliga förkortningar beror på installerade tillägg.
 
-## Hur man formaterar text med blockelement
+## Hur man formaterar text med blockelementen
 
-Markdown har stöd för blockelement som kan sträcka sig över flera rader. Sätt tecknet `>` i början av raden så kan du skapa ett citat. Eller sätt tecknet `!` i början av raden så kan du skapa ett allmänt blockelement. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad.
+Markdown är ett flexibelt sätt att redigera webbsidor. Sätt tecknet `!` i början av raden så kan du skapa ett allmänt blockelement som kan sträcka sig över flera rader. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. De tillgängliga blockelementen beror på ditt nuvarande tema.
 
 ## Exempel
 
@@ -125,32 +125,29 @@ Skapa citat:
     
     >>> Citat i citat i citat
 
-Skapa indikationer:
-
-    ! Här är en indikation med varning 
-    
-    !! Här är en indikation med fel
-    
-    !!! Här är en indikation med tip
-
-Använd CSS:
-
-    ! {.class}
-    ! Här är ett allmänt blockelement.
-    ! Text kan sträcka sig över flera rader
-    ! och innehåller Markdown-textformatering.
-
 Använd HTML:
 
     <strong>Text med HTML</strong> kan valfritt användas.
     <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
 
-Använd förkortningar med ytterligare funktioner:
+Använd förkortningar:
 
     [image photo.jpg] = lägga till en bild eller miniatyrbild
     [gallery photo]   = lägga till ett bildgalleri med popup
     [slider photo]    = lägga till ett bildgalleri med reglaget
+
+Använd blockelementen:
+
+    ! Här är ett allmänt blockelement.
+    ! Text kan sträcka sig över flera rader
+    ! och innehåller Markdown-textformatering.
+
+    ! {.important}
+    ! Här är information som måste beaktas.
+
+    ! {.note}
+    ! Här är information du borde känna till.
 
 Tillägg för egen förkortning:
 
