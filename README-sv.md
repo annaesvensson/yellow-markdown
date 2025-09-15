@@ -22,7 +22,7 @@ Markdown är ett snabbt sätt att redigera webbsidor. Markdown-formaterad text k
 
 ## Hur man formaterar text med blockelementen
 
-Markdown är ett flexibelt sätt att redigera webbsidor. Sätt tecknet `!` i början av raden så kan du skapa ett allmänt blockelement som kan sträcka sig över flera rader. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. De tillgängliga blockelementen beror på ditt nuvarande tema.
+Markdown är ett flexibelt sätt att redigera webbsidor. Sätt tecknet `!` i början av raden så kan du skapa ett allmänt blockelement. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. De tillgängliga blockelementen beror på ditt nuvarande tema.
 
 ## Exempel
 
