@@ -22,7 +22,7 @@ Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Die verfügbaren Blockelemente hängen vom deinem aktuellen Thema ab.
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Die verfügbaren Blockelemente hängen vom deinem aktuellen Theme ab.
 
 ## Beispiele
 
