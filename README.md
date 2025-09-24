@@ -147,7 +147,7 @@ Using block elements:
     ! Here's information that needs attention.
 
     ! {.note}
-    ! Hello, this looks like a sticky note.
+    ! Hello, this text looks like a sticky note.
 
 Extension for custom shortcut:
 
