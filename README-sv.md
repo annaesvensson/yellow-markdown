@@ -147,7 +147,7 @@ Använd blockelementen:
     ! Här är information som måste beaktas.
 
     ! {.note}
-    ! Här är information du borde känna till.
+    ! Hej, det här ser ut som en klisterlapp.
 
 Tillägg för egen förkortning:
 

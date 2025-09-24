@@ -147,7 +147,7 @@ Blockelemente benutzen:
     ! Hier sind Informationen die beachtet werden müssen.
 
     ! {.note}
-    ! Hier sind Informationen die du wissen solltest.
+    ! Hallo, das sieht aus wie ein Klebezettel.
 
 Erweiterung für eigene Abkürzung:
 
