@@ -143,12 +143,6 @@ Using block elements:
     ! {.note}
     ! Hello, this text looks like a sticky note.
 
-Using HTML:
-
-    <strong>Text with HTML</strong> can be used optionally.
-    <img src="/media/images/photo.jpg" alt="This is an example image">
-    <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
-
 CSS for custom block element:
 
 ```

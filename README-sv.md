@@ -143,12 +143,6 @@ Använd blockelementen:
     ! {.note}
     ! Hej, den här texten ser ut som en klisterlapp.
 
-Använd HTML:
-
-    <strong>Text med HTML</strong> kan valfritt användas.
-    <img src="/media/images/photo.jpg" alt="This is an example image">
-    <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
-
 CSS för eget blockelement:
 
 ```

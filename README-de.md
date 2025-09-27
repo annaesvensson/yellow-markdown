@@ -143,12 +143,6 @@ Blockelemente benutzen:
     ! {.note}
     ! Hallo, dieser Text sieht aus wie ein Klebezettel.
 
-HTML benutzen:
-
-    <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
-    <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
-    <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
-
 CSS für eigenes Blockelement:
 
 ```
