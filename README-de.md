@@ -18,11 +18,11 @@ Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.in
 
 ## Wie man Text mit Abkürzungen formatiert
 
-Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
+Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/README-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/README-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/README-de.md) einzubinden. Das ist praktisch für Leute die HTML und CSS nicht mögen. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Die verfügbaren Blockelemente hängen vom deinem aktuellen Theme ab.
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Das ist praktisch für Leute die HTML und CSS mögen. Die verfügbaren Blockelemente hängen vom deinem aktuellen Theme ab.
 
 ## Beispiele
 
@@ -125,12 +125,6 @@ Zitate erstellen:
     
     >>> Zitat im Zitat im Zitat
 
-HTML benutzen:
-
-    <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
-    <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
-    <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
-
 Abkürzungen benutzen:
 
     [image photo.jpg] = Bild oder Miniaturbild hinzufügen
@@ -148,6 +142,12 @@ Blockelemente benutzen:
 
     ! {.note}
     ! Hallo, dieser Text sieht aus wie ein Klebezettel.
+
+HTML benutzen:
+
+    <strong>Text mit HTML</strong> kann wahlweise benutzt werden.
+    <img src="/media/images/photo.jpg" alt="Dies ist ein Beispielbild">
+    <a href="https://datenstrom.se/de/" target="_blank">Link in einem neuen Tab öffnen</a>.
 
 Erweiterung für eigene Abkürzung:
 
@@ -172,6 +172,18 @@ class YellowExample {
         }
         return $output;
     }
+}
+```
+
+CSS für eigenes Blockelement:
+
+```
+.content .example-block {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 12px;
 }
 ```
 
