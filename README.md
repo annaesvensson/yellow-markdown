@@ -149,7 +149,19 @@ Using HTML:
     <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Open link in new tab</a>.
 
-Extension for custom shortcut:
+CSS for custom block element:
+
+```
+.content .example-block {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 12px;
+}
+```
+
+Code for custom shortcut:
 
 ```
 <?php
@@ -172,18 +184,6 @@ class YellowExample {
         }
         return $output;
     }
-}
-```
-
-CSS for custom block element:
-
-```
-.content .example-block {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    background-color: #f7f7f7;
-    color: #333;
-    border-radius: 12px;
 }
 ```
 

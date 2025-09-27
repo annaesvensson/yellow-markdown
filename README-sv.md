@@ -149,7 +149,19 @@ Använd HTML:
     <img src="/media/images/photo.jpg" alt="This is an example image">
     <a href="https://datenstrom.se" target="_blank">Öppna länken i en ny flik</a>.
 
-Tillägg för egen förkortning:
+CSS för eget blockelement:
+
+```
+.content .example-block {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 12px;
+}
+```
+
+Kod för egen förkortning:
 
 ```
 <?php
@@ -172,18 +184,6 @@ class YellowExample {
         }
         return $output;
     }
-}
-```
-
-CSS för eget blockelement:
-
-```
-.content .example-block {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    background-color: #f7f7f7;
-    color: #333;
-    border-radius: 12px;
 }
 ```
 
