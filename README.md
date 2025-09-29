@@ -146,12 +146,12 @@ Using block elements:
 CSS for custom block element:
 
 ```
-.content .example-block {
+.content .example {
     margin: 1em 0;
     padding: 0.5em 1em;
     background-color: #f7f7f7;
     color: #333;
-    border-radius: 12px;
+    border-radius: 3px;
 }
 ```
 
