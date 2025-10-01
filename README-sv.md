@@ -140,9 +140,6 @@ Använd blockelement:
     ! {.important}
     ! Här är information som måste beaktas.
 
-    ! {.note}
-    ! Hej, den här texten ser ut som en klisterlapp.
-
 CSS för eget blockelement:
 
 ```

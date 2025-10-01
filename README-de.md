@@ -140,9 +140,6 @@ Blockelemente benutzen:
     ! {.important}
     ! Hier sind Informationen die beachtet werden müssen.
 
-    ! {.note}
-    ! Hallo, dieser Text sieht aus wie ein Klebezettel.
-
 CSS für eigenes Blockelement:
 
 ```
