@@ -22,7 +22,7 @@ Markdown is a quick way to edit web pages. Markdown-formatted text can be opened
 
 ## How to format text with block elements
 
-Markdown is a flexible way to edit web pages. Put the `!` character at the beginning of the line and you can make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found. Block elements are convenient for people who know HTML and CSS. The available block elements depend on your current theme.
+Markdown is a flexible way to edit web pages. Put the `!` character at the beginning of the line and you can make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found. Block elements are convenient for people who know HTML and CSS. The available block elements depend on your current theme. [Learn more about themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 
@@ -160,7 +160,7 @@ Code for custom shortcut:
 ```
 <?php
 class YellowExample {
-    const VERSION = "0.1.3";
+    const VERSION = "0.9.3";
     public $yellow;         // access to API
     
     // Handle initialisation
