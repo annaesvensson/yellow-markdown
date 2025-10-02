@@ -138,17 +138,16 @@ Blockelemente benutzen:
     ! und Markdown-Textformatierung beinhalten.
 
     ! {.important}
-    ! Hier sind Informationen die beachtet werden müssen.
+    ! Hier sind Informationen die Aufmerksamkeit erfordern.
 
 CSS für eigenes Blockelement:
 
-```
+``` css
 .content .example {
     margin: 1em 0;
     padding: 0.5em 1em;
-    background-color: #f7f7f7;
+    background-color: #fffbf0;
     color: #333;
-    border-radius: 3px;
 }
 ```
 

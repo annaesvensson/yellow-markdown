@@ -138,17 +138,16 @@ Använd blockelement:
     ! och innehåller Markdown-textformatering.
 
     ! {.important}
-    ! Här är information som måste beaktas.
+    ! Här är information som kräver uppmärksamhet.
 
 CSS för eget blockelement:
 
-```
+``` css
 .content .example {
     margin: 1em 0;
     padding: 0.5em 1em;
-    background-color: #f7f7f7;
+    background-color: #fffbf0;
     color: #333;
-    border-radius: 3px;
 }
 ```
 
