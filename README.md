@@ -142,7 +142,7 @@ Using block elements:
 
 CSS for custom block element:
 
-``` css
+```
 .content .example {
     margin: 1em 0;
     padding: 0.5em 1em;
