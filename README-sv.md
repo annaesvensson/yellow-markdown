@@ -168,7 +168,7 @@ class YellowExample {
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="example" && ($type=="block" || $type=="inline")) {
-            $output = "<div class=\"".htmlspecialchars($name)."\">";
+            $output = "<div class=\"example\">";
             $output .= "Add more HTML code here";
             $output .= "</div>";
         }
