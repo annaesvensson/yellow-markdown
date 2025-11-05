@@ -93,10 +93,10 @@ Making footnotes:
     [^2]: Here's the second footnote
     [^3]: Here's the third footnote
 
-Showing source code:
+Showing code:
 
     ```
-    Source code will be shown unchanged.
+    Code will be shown unchanged.
     function onLoad($yellow) {
         $this->yellow = $yellow;
     }

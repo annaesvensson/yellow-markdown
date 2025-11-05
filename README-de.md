@@ -93,10 +93,10 @@ Fußnoten erstellen:
     [^2]: Hier ist die zweite Fußnote
     [^3]: Hier ist die dritte Fußnote
 
-Quellcode anzeigen:
+Code anzeigen:
 
     ```
-    Quellcode wird unverändert angezeigt.
+    Code wird unverändert angezeigt.
     function onLoad($yellow) {
         $this->yellow = $yellow;
     }

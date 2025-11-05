@@ -93,10 +93,10 @@ Skapa fotnoter:
     [^2]: Här är den andra fotnoten
     [^3]: Här är den tredje fotnoten
 
-Visa källkod:
+Visa kod:
 
     ```
-    Källkoden visas oförändrad.
+    Koden visas oförändrad.
     function onLoad($yellow) {
         $this->yellow = $yellow;
     }
