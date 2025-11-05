@@ -93,7 +93,7 @@ Skapa fotnoter:
     [^2]: Här är den andra fotnoten
     [^3]: Här är den tredje fotnoten
 
-Visa kod:
+Visa kodblock:
 
     ```
     Koden visas oförändrad.

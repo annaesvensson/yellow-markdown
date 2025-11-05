@@ -93,7 +93,7 @@ Fußnoten erstellen:
     [^2]: Hier ist die zweite Fußnote
     [^3]: Hier ist die dritte Fußnote
 
-Code anzeigen:
+Codeblöcke anzeigen:
 
     ```
     Code wird unverändert angezeigt.

@@ -93,7 +93,7 @@ Making footnotes:
     [^2]: Here's the second footnote
     [^3]: Here's the third footnote
 
-Showing code:
+Showing code blocks:
 
     ```
     Code will be shown unchanged.
