@@ -1,6 +1,6 @@
 <p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a> &nbsp; <a href="README-sv.md">Svenska</a></p>
 
-# Markdown 0.9.4
+# Markdown 0.9.5
 
 Textformatering för människor.
 
@@ -179,7 +179,7 @@ class YellowExample {
 
 ## Tack
 
-Detta tillägg innehåller [Markdown Extra 1.9.0](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
+Detta tillägg innehåller [Markdown Extra 1.9.1](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
 
 ## Utvecklare
 
