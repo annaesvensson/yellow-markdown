@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a> &nbsp; <a href="readme-sv.md">Svenska</a></p>
-
 # Markdown 0.9.5
 
-Textformatering för människor.
+Textformatering för människor. Utvecklad av Anna Svensson.
 
 <p align="center"><img src="screenshot.png" alt="Skärmdump"></p>
 
@@ -181,6 +179,4 @@ class YellowExample {
 
 Detta tillägg innehåller [Markdown Extra 1.9.1](https://github.com/michelf/php-markdown) av Michel Fortin. Tack för ett bra jobb.
 
-## Utvecklare
-
-Anna Svensson. [Få hjälp](https://datenstrom.se/sv/yellow/help/).
+Har du några frågor? [Få hjälp](https://datenstrom.se/sv/yellow/help/).
