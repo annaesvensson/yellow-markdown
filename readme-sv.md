@@ -149,12 +149,14 @@ CSS för eget blockelement:
 }
 ```
 
-Kod för egen förkortning:
+Tillägsfil för egen förkortning:
 
 ```
 <?php
+// Example extension, https://github.com/annaesvenson/yellow-example
+
 class YellowExample {
-    const VERSION = "0.9.3";
+    const VERSION = "0.9.2";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -166,9 +168,8 @@ class YellowExample {
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="example" && ($type=="block" || $type=="inline")) {
-            $output = "<div class=\"example\">";
-            $output .= "Add more HTML code here";
-            $output .= "</div>";
+            if (is_string_empty($text)) $text = "Hello World";
+            $output = "<div class=\"example\">".htmlspecialchars($text)."</div>";
         }
         return $output;
     }
