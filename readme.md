@@ -80,7 +80,7 @@ Making tables:
     | Coffee     | Milk | Strength |
     |------------|------|----------|
     | Espresso   | no   | strong   |
-    | Macchiato  | yes  | medium   |
+    | Cortado    | yes  | medium   |
     | Cappuccino | yes  | weak     |
 
 Making footnotes:
@@ -137,6 +137,9 @@ Using block elements:
 
     ! {.important}
     ! Here's information that needs attention.
+
+    ! {.example}
+    ! Here's a custom block element.
 
 CSS for custom block element:
 

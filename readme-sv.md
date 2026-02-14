@@ -80,7 +80,7 @@ Skapa tabeller:
     | Kaffe      | Mjölk | Styrka  |
     |------------|-------|---------|
     | Espresso   | nej   | stark   |
-    | Macchiato  | ja    | medium  |
+    | Cortado    | ja    | medium  |
     | Cappuccino | ja    | svag    |
 
 Skapa fotnoter:
@@ -137,6 +137,9 @@ Använd blockelement:
 
     ! {.important}
     ! Här är information som kräver uppmärksamhet.
+
+    ! {.example}
+    ! Här är ett eget blockelement.
 
 CSS för eget blockelement:
 

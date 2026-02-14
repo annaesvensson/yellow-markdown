@@ -80,7 +80,7 @@ Tabellen erstellen:
     | Kaffee     | Milch | Stärke  |
     |------------|-------|---------|
     | Espresso   | nein  | stark   |
-    | Macchiato  | ja    | mittel  |
+    | Cortado    | ja    | mittel  |
     | Cappuccino | ja    | schwach |
 
 Fußnoten erstellen:
@@ -137,6 +137,9 @@ Blockelemente benutzen:
 
     ! {.important}
     ! Hier sind Informationen die Aufmerksamkeit erfordern.
+
+    ! {.example}
+    ! Hier ist ein eigenes Blockelement.
 
 CSS für eigenes Blockelement:
 
