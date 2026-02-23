@@ -1,4 +1,4 @@
-# Markdown 0.9.6
+# Markdown 0.9.7
 
 Textformatierung für Menschen. Entwickelt von Anna Svensson.
 
@@ -133,8 +133,8 @@ Zusammenklappbare Blöcke benutzen:
 
     ? Details anzeigen
     ?
-    ? Dies ist ein zusammenklappbares Blockelement. Es wird  
-    ? nur angezeigt, wenn man auf die erste Zeile klickt
+    ? Dies ist ein zusammenklappbares Blockelement. Es wird
+    ? nur angezeigt, wenn man auf den ersten Absatz klickt
     ? und kann Markdown-Textformatierungen beinhalten.
 
 Allgemeine Blöcke benutzen:

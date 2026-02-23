@@ -1,4 +1,4 @@
-# Markdown 0.9.6
+# Markdown 0.9.7
 
 Textformatering för människor. Utvecklad av Anna Svensson.
 
@@ -133,8 +133,8 @@ Använda hopfällbara block:
 
     ? Visa detaljer
     ?
-    ? Detta är ett hopfällbart blockelement. Det  
-    ? visas endast när du klickar på första raden
+    ? Detta är ett hopfällbart blockelement. Det visas
+    ? endast när du klickar på första paragrafen
     ? och kan innehålla Markdown-textformatering.
 
 Använda allmänna block:

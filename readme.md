@@ -1,4 +1,4 @@
-# Markdown 0.9.6
+# Markdown 0.9.7
 
 Text formatting for humans. Developed by Anna Svensson.
 
@@ -133,8 +133,8 @@ Using collapsible blocks:
 
     ? Show details
     ?
-    ? This is a collapsible block element. It's  
-    ? only shown when you click on the first line
+    ? This is a collapsible block element. It's only
+    ? shown when you click on the first paragraph
     ? and can contain Markdown text formatting.
 
 Using general blocks:
