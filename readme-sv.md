@@ -1,4 +1,4 @@
-# Markdown 0.9.5
+# Markdown 0.9.6
 
 Textformatering för människor. Utvecklad av Anna Svensson.
 
@@ -91,15 +91,6 @@ Skapa fotnoter:
     [^2]: Här är den andra fotnoten
     [^3]: Här är den tredje fotnoten
 
-Visa kodblock:
-
-    ```
-    Koden visas oförändrad.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    ```
-
 Skapa paragraf:
 
     Här är första paragrafen. Text kan sträcka sig över flera rader
@@ -129,11 +120,28 @@ Använd förkortningar:
     [gallery photo]   = lägga till ett bildgalleri med popup
     [slider photo]    = lägga till ett bildgalleri med reglaget
 
-Använd blockelement:
+Använda kodblock:
+
+    ```
+    Koden visas oförändrad.
+    function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    ```
+
+Använda hopfällbara block:
+
+    ? Visa detaljer
+    ?
+    ? Detta är ett hopfällbart blockelement. Det  
+    ? visas endast när du klickar på första raden
+    ? och kan innehålla Markdown-textformatering.
+
+Använda allmänna block:
 
     ! Här är ett allmänt blockelement.
     ! Text kan sträcka sig över flera rader
-    ! och innehåller Markdown-textformatering.
+    ! och kan innehålla Markdown-textformatering.
 
     ! {.important}
     ! Här är information som kräver uppmärksamhet.

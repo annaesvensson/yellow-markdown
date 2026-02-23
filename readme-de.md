@@ -1,4 +1,4 @@
-# Markdown 0.9.5
+# Markdown 0.9.6
 
 Textformatierung für Menschen. Entwickelt von Anna Svensson.
 
@@ -91,15 +91,6 @@ Fußnoten erstellen:
     [^2]: Hier ist die zweite Fußnote
     [^3]: Hier ist die dritte Fußnote
 
-Codeblöcke anzeigen:
-
-    ```
-    Code wird unverändert angezeigt.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    ```
-
 Absätze erstellen:
 
     Hier ist der erste Absatz. Der Text kann über mehrere Zeilen gehen
@@ -129,11 +120,28 @@ Abkürzungen benutzen:
     [gallery photo]   = Bildergalerie mit Popup hinzufügen
     [slider photo]    = Bildergalerie mit Schieber hinzufügen
 
-Blockelemente benutzen:
+Codeblöcke benutzen:
+
+    ```
+    Code wird unverändert angezeigt.
+    function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    ```
+
+Zusammenklappbare Blöcke benutzen:
+
+    ? Details anzeigen
+    ?
+    ? Dies ist ein zusammenklappbares Blockelement. Es wird  
+    ? nur angezeigt, wenn man auf die erste Zeile klickt
+    ? und kann Markdown-Textformatierungen beinhalten.
+
+Allgemeine Blöcke benutzen:
 
     ! Hier ist ein allgemeines Blockelement.
     ! Der Text kann über mehrere Zeilen gehen
-    ! und Markdown-Textformatierung beinhalten.
+    ! und kann Markdown-Textformatierung beinhalten.
 
     ! {.important}
     ! Hier sind Informationen die Aufmerksamkeit erfordern.

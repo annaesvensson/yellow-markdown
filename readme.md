@@ -1,4 +1,4 @@
-# Markdown 0.9.5
+# Markdown 0.9.6
 
 Text formatting for humans. Developed by Anna Svensson.
 
@@ -91,15 +91,6 @@ Making footnotes:
     [^2]: Here's the second footnote
     [^3]: Here's the third footnote
 
-Showing code blocks:
-
-    ```
-    Code will be shown unchanged.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
-    ```
-
 Making paragraphs:
 
     Here's the first paragraph. Text can span over several lines
@@ -129,11 +120,28 @@ Using shortcuts:
     [gallery photo]   = adding an image gallery with popup
     [slider photo]    = adding an image gallery with slider
 
-Using block elements:
+Using code blocks:
+
+    ```
+    Code will be shown unchanged.
+    function onLoad($yellow) {
+        $this->yellow = $yellow;
+    }
+    ```
+
+Using collapsible blocks:
+
+    ? Show details
+    ?
+    ? This is a collapsible block element. It's  
+    ? only shown when you click on the first line
+    ? and can contain Markdown text formatting.
+
+Using general blocks:
 
     ! Here's a general block element.
     ! Text can span over several lines
-    ! and contain Markdown text formatting.
+    ! and can contain Markdown text formatting.
 
     ! {.important}
     ! Here's information that needs attention.
