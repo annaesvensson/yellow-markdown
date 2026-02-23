@@ -147,7 +147,7 @@ Using general blocks:
     ! Here's information that needs attention.
 
     ! {.example}
-    ! Here's a custom block element.
+    ! Here's a custom block element, can be customised with CSS.
 
 CSS for custom block element:
 

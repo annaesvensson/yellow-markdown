@@ -147,7 +147,7 @@ Använda allmänna block:
     ! Här är information som kräver uppmärksamhet.
 
     ! {.example}
-    ! Här är ett eget blockelement.
+    ! Här är ett eget blockelement, kan anpassas med CSS.
 
 CSS för eget blockelement:
 
