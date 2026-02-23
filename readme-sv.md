@@ -114,7 +114,7 @@ Skapa citat:
     
     >>> Citat i citat i citat
 
-Använd förkortningar:
+Använda förkortningar:
 
     [image photo.jpg] = lägga till en bild eller miniatyrbild
     [gallery photo]   = lägga till ett bildgalleri med popup
