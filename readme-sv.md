@@ -1,4 +1,4 @@
-# Markdown 0.9.7
+# Markdown 0.9.8
 
 Textformatering för människor. Utvecklad av Anna Svensson.
 
