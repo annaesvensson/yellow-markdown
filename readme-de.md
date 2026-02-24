@@ -20,7 +20,7 @@ Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Setze das Zeichen `!` an den Zeilenanfang um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten, Blockelemente und andere CSS-Klassen werden in einem Theme definiert. [Weitere Informationen zu Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Oder beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten, Blockelemente und andere CSS-Klassen werden in einem Theme definiert. [Weitere Informationen zu Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 
@@ -129,11 +129,11 @@ Codeblöcke benutzen:
     }
     ```
 
-Zusammenklappbare Blöcke benutzen:
+Ausklappbare Blöcke benutzen:
 
     ? Details anzeigen
     ?
-    ? Dies ist ein zusammenklappbares Blockelement. Es wird
+    ? Dies ist ein ausklappbares Blockelement. Es wird
     ? nur angezeigt, wenn man auf den ersten Absatz klickt
     ? und kann Markdown-Textformatierungen beinhalten.
 
