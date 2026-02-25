@@ -20,7 +20,7 @@ Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten, Blockelemente und andere CSS-Klassen werden in einem Theme definiert. [Weitere Informationen zu Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten und Blockelemente können mit CSS angepasst werden. [Weitere Informationen zu HTML und CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css).
 
 ## Beispiele
 
