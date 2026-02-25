@@ -20,7 +20,7 @@ Markdown är ett snabbt sätt att redigera webbsidor. Markdown-formaterad text k
 
 ## Hur man formaterar text med blockelement
 
-Markdown är ett flexibelt sätt att redigera webbsidor. Börja varje rad med tecknet `?` för att skapa ett hopfällbart blockelement. Eller börja varje rad med tecknet `!` för att skapa ett allmänt blockelement. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg eller teckensnitt. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. Färger, teckensnitt, blockelement och andra CSS-klasser definieras i ett tema. [Läs mer om teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
+Markdown är ett flexibelt sätt att redigera webbsidor. Börja varje rad med tecknet `?` för att skapa ett hopfällbart blockelement. Börja varje rad med tecknet `!` för att skapa ett allmänt blockelement. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg eller teckensnitt. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. Färger, teckensnitt, blockelement och andra CSS-klasser definieras i ett tema. [Läs mer om teman](https://datenstrom.se/sv/yellow/help/how-to-customise-a-theme).
 
 ## Exempel
 
@@ -153,14 +153,13 @@ CSS för eget blockelement:
 
 ```
 .content .example {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    background-color: #fffbf0;
+    padding: 0.15em;
+    background-color: #ffeeaa;
     color: #333;
 }
 ```
 
-Tillägsfil för egen förkortning:
+Tillägsfil för egen förkortning, [se exempel-tilläg](https://github.com/annaesvensson/yellow-example):
 
 ```
 <?php
@@ -178,9 +177,9 @@ class YellowExample {
     // Handle page content element
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
+        if ($name=="example" && $type=="inline") {
             if (is_string_empty($text)) $text = "Hello World";
-            $output = "<div class=\"example\">".htmlspecialchars($text)."</div>";
+            $output = "<span class=\"example\">".htmlspecialchars($text)."</span>";
         }
         return $output;
     }

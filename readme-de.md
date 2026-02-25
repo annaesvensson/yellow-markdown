@@ -20,7 +20,7 @@ Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter
 
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Oder beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten, Blockelemente und andere CSS-Klassen werden in einem Theme definiert. [Weitere Informationen zu Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden. Farben, Schriftarten, Blockelemente und andere CSS-Klassen werden in einem Theme definiert. [Weitere Informationen zu Themes](https://datenstrom.se/de/yellow/help/how-to-customise-a-theme).
 
 ## Beispiele
 
@@ -153,14 +153,13 @@ CSS für eigenes Blockelement:
 
 ```
 .content .example {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    background-color: #fffbf0;
+    padding: 0.15em;
+    background-color: #ffeeaa;
     color: #333;
 }
 ```
 
-Erweiterungsdatei für eigene Abkürzung:
+Erweiterungsdatei für eigene Abkürzung, [siehe Beispiel-Erweiterung](https://github.com/annaesvensson/yellow-example):
 
 ```
 <?php
@@ -178,9 +177,9 @@ class YellowExample {
     // Handle page content element
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
+        if ($name=="example" && $type=="inline") {
             if (is_string_empty($text)) $text = "Hello World";
-            $output = "<div class=\"example\">".htmlspecialchars($text)."</div>";
+            $output = "<span class=\"example\">".htmlspecialchars($text)."</span>";
         }
         return $output;
     }

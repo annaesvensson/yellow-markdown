@@ -20,7 +20,7 @@ Markdown is a quick way to edit web pages. Markdown-formatted text can be opened
 
 ## How to format text with block elements
 
-Markdown is a flexible way to edit web pages. Start each line with a `?` character to make a collapsible block element. Or start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found. Colors, fonts, block elements and other CSS classes are defined in a theme. [Learn more about themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
+Markdown is a flexible way to edit web pages. Start each line with a `?` character to make a collapsible block element. Start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found. Colors, fonts, block elements and other CSS classes are defined in a theme. [Learn more about themes](https://datenstrom.se/yellow/help/how-to-customise-a-theme).
 
 ## Examples
 
@@ -153,14 +153,13 @@ CSS for custom block element:
 
 ```
 .content .example {
-    margin: 1em 0;
-    padding: 0.5em 1em;
-    background-color: #fffbf0;
+    padding: 0.15em;
+    background-color: #ffeeaa;
     color: #333;
 }
 ```
 
-Extension file for custom shortcut:
+Extension file for custom shortcut, [see example extension](https://github.com/annaesvensson/yellow-example):
 
 ```
 <?php
@@ -178,9 +177,9 @@ class YellowExample {
     // Handle page content element
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
-        if ($name=="example" && ($type=="block" || $type=="inline")) {
+        if ($name=="example" && $type=="inline") {
             if (is_string_empty($text)) $text = "Hello World";
-            $output = "<div class=\"example\">".htmlspecialchars($text)."</div>";
+            $output = "<span class=\"example\">".htmlspecialchars($text)."</span>";
         }
         return $output;
     }
