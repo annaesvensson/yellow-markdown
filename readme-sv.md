@@ -20,7 +20,7 @@ Markdown är ett snabbt sätt att redigera webbsidor. Markdown-formaterad text k
 
 ## Hur man formaterar text med blockelement
 
-Markdown är ett flexibelt sätt att redigera webbsidor. Börja varje rad med tecknet `?` för att skapa ett hopfällbart blockelement. Börja varje rad med tecknet `!` för att skapa ett allmänt blockelement. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg eller teckensnitt. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. Färger, teckensnitt och blockelement kan anpassas med CSS. [Läs mer om HTML och CSS](https://datenstrom.se/sv/yellow/help/how-to-customise-html-and-css).
+Markdown är ett flexibelt sätt att redigera webbsidor. Börja varje rad med tecknet `?` för att skapa ett hopfällbart blockelement. Börja varje rad med tecknet `!` för att skapa ett allmänt blockelement. Detta ger dig möjlighet att till exempel framhäva en hel paragraf i en speciell färg eller teckensnitt. Om du är en webbutvecklare frågar du förmodligen, betyder det att jag kan lägga till `<div>...</div>` på en webbsida och var har du varit hela mitt liv? Svaret är ja och som en diamant i marken väntade den på att bli hittad. Färger, teckensnitt och blockelement kan anpassas med [CSS](https://datenstrom.se/sv/yellow/help/how-to-customise-html-and-css).
 
 ## Exempel
 
@@ -147,7 +147,7 @@ Använda allmänna block:
     ! Här är information som kräver uppmärksamhet.
 
     ! {.example}
-    ! Här är ett eget blockelement, kan anpassas med CSS.
+    ! Här är ett eget blockelement, det kan anpassas med CSS.
 
 CSS för eget blockelement:
 
