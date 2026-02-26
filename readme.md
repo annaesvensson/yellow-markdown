@@ -20,7 +20,7 @@ Markdown is a quick way to edit web pages. Markdown-formatted text can be opened
 
 ## How to format text with block elements
 
-Markdown is a flexible way to edit web pages. Start each line with a `?` character to make a collapsible block element. Start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found. Colors, fonts and block elements can be customised with [CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css).
+Markdown is a flexible way to edit web pages. Start each line with a `?` character to make a collapsible block element. Start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. Block elements can be customised with [CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css). If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
 
 ## Examples
 
