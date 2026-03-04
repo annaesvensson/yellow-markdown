@@ -123,17 +123,16 @@ Använda förkortningar:
 Använda kodblock:
 
     ```
-    Koden visas oförändrad.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
+    <div class="content">
+    <p>Hello world!</p>
+    </div>
     ```
 
 Använda hopfällbara block:
 
     ? Visa detaljer
     ?
-    ? Detta är ett hopfällbart blockelement. Det visas
+    ? Här är ett hopfällbart blockelement. Det visas
     ? endast när du klickar på första paragrafen
     ? och kan innehålla Markdown-textformatering.
 

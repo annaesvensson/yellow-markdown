@@ -123,17 +123,16 @@ Abkürzungen benutzen:
 Codeblöcke benutzen:
 
     ```
-    Code wird unverändert angezeigt.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
+    <div class="content">
+    <p>Hello world!</p>
+    </div>
     ```
 
 Ausklappbare Blöcke benutzen:
 
     ? Details anzeigen
     ?
-    ? Dies ist ein ausklappbares Blockelement. Es wird
+    ? Hier ist ein ausklappbares Blockelement. Es wird
     ? nur angezeigt, wenn man auf den ersten Absatz klickt
     ? und kann Markdown-Textformatierungen beinhalten.
 

@@ -123,17 +123,16 @@ Using shortcuts:
 Using code blocks:
 
     ```
-    Code will be shown unchanged.
-    function onLoad($yellow) {
-        $this->yellow = $yellow;
-    }
+    <div class="content">
+    <p>Hello world!</p>
+    </div>
     ```
 
 Using collapsible blocks:
 
     ? Show details
     ?
-    ? This is a collapsible block element. It's only
+    ? Here's a collapsible block element. It's only
     ? shown when you click on the first paragraph
     ? and can contain Markdown text formatting.
 
