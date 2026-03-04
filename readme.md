@@ -124,7 +124,7 @@ Using code blocks:
 
     ```
     <div class="content">
-    <p>Hello world!</p>
+    <p>Hello world</p>
     </div>
     ```
 
