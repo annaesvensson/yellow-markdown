@@ -187,6 +187,6 @@ class YellowExample {
 
 ## Acknowledgements
 
-This extension includes [Markdown Extra 1.9.1](https://github.com/michelf/php-markdown) by Michel Fortin. Thank you for the good work.
+This extension includes [Markdown Extra 1.9.1](https://github.com/michelf/php-markdown) by Michel Fortin. Thank you for the useful library.
 
 Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
