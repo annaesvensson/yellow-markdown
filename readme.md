@@ -1,4 +1,4 @@
-# Markdown 0.9.10
+# Markdown 0.9.11
 
 Text formatting for humans. Developed by Anna Svensson.
 
