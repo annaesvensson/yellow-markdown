@@ -165,7 +165,7 @@ Extension file for custom shortcut, [see example extension](https://github.com/a
 // Example extension, https://github.com/annaesvenson/yellow-example
 
 class YellowExample {
-    const VERSION = "0.9.2";
+    const VERSION = "1.0.2";
     public $yellow;         // access to API
     
     // Handle initialisation
