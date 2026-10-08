@@ -10,17 +10,17 @@ Text formatting for humans. Developed by Anna Svensson.
 
 ## How to format text
 
-Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. The overriding design goal for the Markdown syntax is to make it as readable as possible. Here are the [Markdown syntax](http://commonmark.org/help/), [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
+Markdown is a practical way to edit web pages. Write text like you would in an email and it becomes a web page. After a short while, it happens naturally without you even thinking about it. The overriding design goal for the Markdown syntax is to make the text as readable as possible. Here are the [Markdown syntax](http://commonmark.org/help/), [Markdown Extra features](https://michelf.ca/projects/php-markdown/extra/) and [GitHub Flavored Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 The default content parser is defined in file `system/extensions/yellow-system.ini`. A different content parser can be defined in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of each page, for example `Parser: markdown`.
 
-## How to format text with shortcuts
-
-Markdown is a quick way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image) and [image galleries](https://github.com/annaesvensson/yellow-gallery). Shortcuts are convenient for people who don't know HTML and CSS. The available shortcuts depend on extensions installed.
-
 ## How to format text with block elements
 
-Markdown is a flexible way to edit web pages. Start each line with a `?` character to make a collapsible block element. Start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. Block elements can be customised with [CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css). If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
+Markdown is a flexible way to edit web pages. In addition to individual words, it can also be used to format entire paragraphs. Start each line with a `?` character to make a collapsible block element. Start each line with a `!` character to make a general block element. This allows you, for example, to emphasise an entire paragraph in a special color or font. Block elements can be customised with [CSS](https://datenstrom.se/yellow/help/how-to-customise-html-and-css). If you are a web developer you are probably asking, does this mean I can add `<div>...</div>` to a web page and where have you been all my life? The answer is yes and like a diamond in the ground it was waiting to be found.
+
+## How to format text with shortcuts
+
+Markdown is a quick way to edit web pages. Markdown-formatted text can be opened with any text editor. Or it can be edited in a [web browser](https://github.com/annaesvensson/yellow-edit). Most applications support the basic Markdown syntax, some applications provide shortcuts with additional features for web pages. This allows you, for example, to add [images](https://github.com/annaesvensson/yellow-image) and [image galleries](https://github.com/annaesvensson/yellow-gallery). Shortcuts are convenient for people who don't know HTML and CSS. The available shortcuts depend on extensions installed. For custom shortcuts there's an [API for developers](https://datenstrom.se/yellow/help/api-for-developers).
 
 ## Examples
 
@@ -114,12 +114,6 @@ Making quotes:
     
     >>> Quote of a quote of a quote
 
-Using shortcuts:
-
-    [image photo.jpg] = adding an image or image thumbnail
-    [gallery photo]   = adding an image gallery with popup
-    [slider photo]    = adding an image gallery with slider
-
 Using code blocks:
 
     ```
@@ -150,13 +144,17 @@ Using general blocks:
 
 CSS for custom block element:
 
-```
-.content .example {
-    padding: 0.15em;
-    background-color: #ffeeaa;
-    color: #333;
-}
-```
+    .content .example {
+        padding: 0.15em;
+        background-color: #ffeeaa;
+        color: #333;
+    }
+
+Using shortcuts:
+
+    [image photo.jpg] = adding an image or image thumbnail
+    [gallery photo]   = adding an image gallery with popup
+    [slider photo]    = adding an image gallery with slider
 
 Extension file for custom shortcut, [see example extension](https://github.com/annaesvensson/yellow-example):
 

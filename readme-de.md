@@ -10,17 +10,17 @@ Textformatierung für Menschen. Entwickelt von Anna Svensson.
 
 ## Wie man Text formatiert
 
-Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Das vorrangige Designziel der Markdown-Syntax besteht darin, sie so lesbar wie möglich zu machen. Hier sind die [Markdown-Syntax](http://commonmark.org/help/), [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
+Markdown ist eine praktische Art um Webseiten zu bearbeiten. Schreibe Text wie in einer E-Mail und daraus wird eine Webseite. Nach einer kurzen Zeit passiert das ganz natürlich, ohne dass man darüber nachdenkt. Das vorrangige Designziel der Markdown-Syntax besteht darin, den Text so lesbar wie möglich zu machen. Hier sind die [Markdown-Syntax](http://commonmark.org/help/), [Markdown-Extra-Funktionen](https://michelf.ca/projects/php-markdown/extra/) und [GitHub-Flavored-Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax).
 
 Der Standard-Inhaltsparser wird in der Datei `system/extensions/yellow-system.ini` festgelegt. Ein anderer Inhaltsparser lässt sich in den [Seiteneinstellungen](https://github.com/annaesvensson/yellow-core/tree/main/readme-de.md#einstellungen-seite) ganz oben auf jeder Seite festlegen, zum Beispiel `Parser: markdown`.
 
-## Wie man Text mit Abkürzungen formatiert
-
-Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/readme-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/readme-de.md) einzubinden. Abkürzungen sind praktisch für Leute die HTML und CSS nicht kennen. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab.
-
 ## Wie man Text mit Blockelementen formatiert
 
-Markdown ist eine flexible Art um Webseiten zu bearbeiten. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Blockelemente können mit [CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css) angepasst werden. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
+Markdown ist eine flexible Art um Webseiten zu bearbeiten. Neben einzelnen Wörtern, kann es auch verwendet werden um ganze Absätze zu formatieren. Beginne jede Zeile mit dem Zeichen `?` um ein ausklappbares Blockelement zu erstellen. Beginne jede Zeile mit dem Zeichen `!` um ein allgemeines Blockelement zu erstellen. Das gibt dir beispielsweise die Möglichkeit einen ganzen Absatz in einer besonderen Farbe oder Schriftart hervorzuheben. Blockelemente können mit [CSS](https://datenstrom.se/de/yellow/help/how-to-customise-html-and-css) angepasst werden. Als Webentwickler fragst du dich wahrscheinlich, kann ich damit `<div>...</div>` zu einer Webseite hinzufügen und wo warst du mein ganzes Leben lang? Die Antwort lautet ja und wie ein Diamant im Boden wartete er darauf gefunden zu werden.
+
+## Wie man Text mit Abkürzungen formatiert
+
+Markdown ist eine schnelle Art um Webseiten zu bearbeiten. Markdown-formatierter Text kann mit jedem Texteditor geöffnet werden. Oder es kann im [Webbrowser](https://github.com/annaesvensson/yellow-edit/tree/main/readme-de.md) bearbeitet werden. Die meisten Anwendungen unterstützen die grundlegende Markdown-Syntax, einige Anwendungen bieten Abkürzungen mit zusätzlichen Funktionen für Webseiten. Das gibt dir beispielsweise die Möglichkeit [Bilder](https://github.com/annaesvensson/yellow-image/tree/main/readme-de.md) und [Bildergalerien](https://github.com/annaesvensson/yellow-gallery/tree/main/readme-de.md) einzubinden. Abkürzungen sind praktisch für Leute die HTML und CSS nicht kennen. Die verfügbaren Abkürzungen hängen von den installierten Erweiterungen ab. Für eigene Abkürzungen gibt es eine [API für Entwickler](https://datenstrom.se/de/yellow/help/api-for-developers).
 
 ## Beispiele
 
@@ -114,12 +114,6 @@ Zitate erstellen:
     
     >>> Zitat im Zitat im Zitat
 
-Abkürzungen benutzen:
-
-    [image photo.jpg] = Bild oder Miniaturbild hinzufügen
-    [gallery photo]   = Bildergalerie mit Popup hinzufügen
-    [slider photo]    = Bildergalerie mit Schieber hinzufügen
-
 Codeblöcke benutzen:
 
     ```
@@ -150,13 +144,17 @@ Allgemeine Blöcke benutzen:
 
 CSS für eigenes Blockelement:
 
-```
-.content .example {
-    padding: 0.15em;
-    background-color: #ffeeaa;
-    color: #333;
-}
-```
+    .content .example {
+        padding: 0.15em;
+        background-color: #ffeeaa;
+        color: #333;
+    }
+
+Abkürzungen benutzen:
+
+    [image photo.jpg] = Bild oder Miniaturbild hinzufügen
+    [gallery photo]   = Bildergalerie mit Popup hinzufügen
+    [slider photo]    = Bildergalerie mit Schieber hinzufügen
 
 Erweiterungsdatei für eigene Abkürzung, [siehe Beispiel-Erweiterung](https://github.com/annaesvensson/yellow-example):
 
