@@ -124,11 +124,17 @@ Använda kodblock:
 
 Använda hopfällbara block:
 
-    ? Visa detaljer
+    ? Ytterligare information
     ?
     ? Här är ett hopfällbart blockelement. Det visas
     ? endast när du klickar på första paragrafen
     ? och kan innehålla Markdown-textformatering.
+
+    ? {open=1}
+    ? Senaste information
+    ?
+    ? Här är information som visas som standard. 
+    ? Man kan fälla ihop den genom att klicka på första paragrafen.
 
 Använda allmänna block:
 

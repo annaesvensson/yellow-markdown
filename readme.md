@@ -124,11 +124,17 @@ Using code blocks:
 
 Using collapsible blocks:
 
-    ? Show details
+    ? Additional information
     ?
     ? Here's a collapsible block element. It's only
     ? shown when you click on the first paragraph
     ? and can contain Markdown text formatting.
+
+    ? {open=1}
+    ? Latest information
+    ?
+    ? Here's information that is shown by default. 
+    ? You can collapse it by clicking on the first paragraph.
 
 Using general blocks:
 

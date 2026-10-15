@@ -124,11 +124,17 @@ Codeblöcke benutzen:
 
 Ausklappbare Blöcke benutzen:
 
-    ? Details anzeigen
+    ? Zusätzliche Informationen
     ?
     ? Hier ist ein ausklappbares Blockelement. Es wird
     ? nur angezeigt, wenn man auf den ersten Absatz klickt
     ? und kann Markdown-Textformatierungen beinhalten.
+
+    ? {open=1}
+    ? Neuste Informationen
+    ?
+    ? Hier sind Informationen die standardmässig angezeigt werden. 
+    ? Man kann sie einklappen indem man auf den ersten Absatz klickt.
 
 Allgemeine Blöcke benutzen:
 
