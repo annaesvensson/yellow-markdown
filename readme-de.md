@@ -133,8 +133,9 @@ Ausklappbare Blöcke benutzen:
     ? {open=1}
     ? Neuste Informationen
     ?
-    ? Hier sind Informationen die standardmässig angezeigt werden. 
-    ? Man kann sie einklappen indem man auf den ersten Absatz klickt.
+    ? Hier ist ein ausklappbares Blockelement das
+    ? standardmässig angezeigt wird. Man kann es einklappen
+    ? indem man auf den ersten Absatz klickt.
 
 Allgemeine Blöcke benutzen:
 

@@ -133,8 +133,9 @@ Using collapsible blocks:
     ? {open=1}
     ? Latest information
     ?
-    ? Here's information that is shown by default. 
-    ? You can collapse it by clicking on the first paragraph.
+    ? Here's a collapsible block element that is
+    ? shown by default. You can collapse it by
+    ? clicking on the first paragraph.
 
 Using general blocks:
 

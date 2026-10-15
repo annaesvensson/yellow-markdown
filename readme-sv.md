@@ -133,8 +133,9 @@ Använda hopfällbara block:
     ? {open=1}
     ? Senaste information
     ?
-    ? Här är information som visas som standard. 
-    ? Man kan fälla ihop den genom att klicka på första paragrafen.
+    ? Här är ett hopfällbart blockelement som visas
+    ? som standard. Man kan fälla ihop den genom att
+    ? klicka på första paragrafen.
 
 Använda allmänna block:
 
